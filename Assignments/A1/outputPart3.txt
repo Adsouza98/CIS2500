@@ -1,0 +1,4 @@
+table = createArray ( 10, 20 )
+
+Storing 33, 44, 55
+Retrieving 33, 44, 55

@@ -1,0 +1,17 @@
+arrayPtrs = createStringArray ( 4 )
+
+Enter a string: This
+setStringArray ( arrayPtrs, 0, This )
+Enter a string: is
+setStringArray ( arrayPtrs, 1, is )
+Enter a string: a
+setStringArray ( arrayPtrs, 2, a )
+Enter a string: test
+setStringArray ( arrayPtrs, 3, test )
+
+This = getStringArray ( arrayPtrs, 0 )
+is = getStringArray ( arrayPtrs, 1 )
+a = getStringArray ( arrayPtrs, 2 )
+test = getStringArray ( arrayPtrs, 3 )
+
+freeStringArray ( arrayPtrs, 4 )
